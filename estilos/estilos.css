@@ -1,3 +1,11 @@
+/*Resetar CSS do meu projeto*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --cor-principal: #6E1136;
     --cor-clara: #eee;
@@ -11,27 +19,35 @@ main {
 }
 
 aside {
-    width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 0.2);
-    padding: 1rem;
-    background-color: var(--cor-clara);
-    color: #333;
+    width: 25rex;
+    color: #640d0d;
     text-align: center;
+    position: relative;
 }
 
 aside img {
-    width: 200px;
+    width: 150px;
     height: auto;
+    font-size: 25px;
+
+}
+
+aside h2 {
+    position: absolute;
+    top: 20px;
+    text-shadow: 2px 2px 3px rgb(245, 245, 245);
 
 }
 
 main img {
+    margin-left: 20px;
+    margin-bottom: 20px;
     width: 150px;
     height: auto;
     border: 1px solid var(--cor-borda);
     padding: 5px;
     box-shadow: 0 0 30px var(--cor-borda);
+    float: right;
 
 }
 
@@ -58,5 +74,20 @@ nav a {
 
 h1 {
     color: var(--cor-principal);
+
+}
+
+/* Selectores de classe */
+
+.caixa {
+
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 1rem;
+    margin: 1em;
+    background-color: var(--cor-clara);
+}
+
+.identacao {
+    padding-left: 2rem;
 
 }
