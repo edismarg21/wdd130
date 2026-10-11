@@ -114,6 +114,10 @@ header {
     align-items: center;
 }
 
+.historia p {
+    color: #050303;
+}
+
 .galeria {
     display: grid;
     grid-template-columns: repeat(5, minmax(0, 1fr));
@@ -157,7 +161,10 @@ footer {
     padding: 16px;
 }
 
-/* Ícones das redes sociais */
+footer p {
+    color: #124b0d;
+}
+
 .redes-sociais {
     display: flex;
     justify-content: flex-end;
