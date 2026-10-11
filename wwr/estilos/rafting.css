@@ -114,8 +114,29 @@ header {
     align-items: center;
 }
 
+.historia {
+    display: grid;
+    grid-template-columns: 1fr 200px 1fr;
+    gap: 20px;
+    align-items: center;
+}
+
+.historia h2 {
+    grid-column: 1 / -1;
+    text-align: center;
+}
+
+.historia img {
+    width: 100%;
+    height: auto;
+}
+
 .historia p {
     color: #050303;
+    margin: 0;
+    padding: 8px;
+    line-height: 1.6;
+
 }
 
 .galeria {
@@ -143,6 +164,7 @@ header {
 
 .galeria figcaption {
     text-align: center;
+    color: #16720d;
 }
 
 main section:not(.galeria) {
